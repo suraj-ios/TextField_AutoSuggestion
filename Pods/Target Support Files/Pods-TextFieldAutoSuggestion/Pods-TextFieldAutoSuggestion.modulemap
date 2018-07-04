@@ -1,0 +1,6 @@
+framework module Pods_TextFieldAutoSuggestion {
+  umbrella header "Pods-TextFieldAutoSuggestion-umbrella.h"
+
+  export *
+  module * { export * }
+}

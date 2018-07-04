@@ -1,0 +1,16 @@
+PODS:
+  - UITextField_AutoSuggestion (0.3.0)
+
+DEPENDENCIES:
+  - UITextField_AutoSuggestion
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - UITextField_AutoSuggestion
+
+SPEC CHECKSUMS:
+  UITextField_AutoSuggestion: dca08de21c8de3f6054dda085087a04b5b326208
+
+PODFILE CHECKSUM: a90b140f30266cca4456fd2250342578b6e0f2ae
+
+COCOAPODS: 1.5.3

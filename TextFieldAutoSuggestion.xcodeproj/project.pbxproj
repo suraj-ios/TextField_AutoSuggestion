@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		595E2E2620ECA441005A7121 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E2E2520ECA441005A7121 /* AppDelegate.swift */; };
+		595E2E2820ECA441005A7121 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E2E2720ECA441005A7121 /* ViewController.swift */; };
+		595E2E2B20ECA441005A7121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595E2E2920ECA441005A7121 /* Main.storyboard */; };
+		595E2E2E20ECA441005A7121 /* TextFieldAutoSuggestion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 595E2E2C20ECA441005A7121 /* TextFieldAutoSuggestion.xcdatamodeld */; };
+		595E2E3020ECA443005A7121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 595E2E2F20ECA443005A7121 /* Assets.xcassets */; };
+		595E2E3320ECA443005A7121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595E2E3120ECA443005A7121 /* LaunchScreen.storyboard */; };
+		5F745CC6ADBE01672F211B5D /* Pods_TextFieldAutoSuggestion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 974E9D72A0F007445FDD3703 /* Pods_TextFieldAutoSuggestion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		458EEDAC33388E32551D1B3F /* Pods-TextFieldAutoSuggestion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextFieldAutoSuggestion.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TextFieldAutoSuggestion/Pods-TextFieldAutoSuggestion.debug.xcconfig"; sourceTree = "<group>"; };
+		595E2E2220ECA441005A7121 /* TextFieldAutoSuggestion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldAutoSuggestion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		595E2E2520ECA441005A7121 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		595E2E2720ECA441005A7121 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		595E2E2A20ECA441005A7121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		595E2E2D20ECA441005A7121 /* TextFieldAutoSuggestion.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TextFieldAutoSuggestion.xcdatamodel; sourceTree = "<group>"; };
+		595E2E2F20ECA443005A7121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		595E2E3220ECA443005A7121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		595E2E3420ECA443005A7121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		974E9D72A0F007445FDD3703 /* Pods_TextFieldAutoSuggestion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextFieldAutoSuggestion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0FDD06896E029F531BD0D31 /* Pods-TextFieldAutoSuggestion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextFieldAutoSuggestion.release.xcconfig"; path = "Pods/Target Support Files/Pods-TextFieldAutoSuggestion/Pods-TextFieldAutoSuggestion.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		595E2E1F20ECA441005A7121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F745CC6ADBE01672F211B5D /* Pods_TextFieldAutoSuggestion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EC50091118C105160B343F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				458EEDAC33388E32551D1B3F /* Pods-TextFieldAutoSuggestion.debug.xcconfig */,
+				F0FDD06896E029F531BD0D31 /* Pods-TextFieldAutoSuggestion.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2E73538E233EE3C1BAEF703A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				974E9D72A0F007445FDD3703 /* Pods_TextFieldAutoSuggestion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		595E2E1920ECA441005A7121 = {
+			isa = PBXGroup;
+			children = (
+				595E2E2420ECA441005A7121 /* TextFieldAutoSuggestion */,
+				595E2E2320ECA441005A7121 /* Products */,
+				0EC50091118C105160B343F2 /* Pods */,
+				2E73538E233EE3C1BAEF703A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		595E2E2320ECA441005A7121 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				595E2E2220ECA441005A7121 /* TextFieldAutoSuggestion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		595E2E2420ECA441005A7121 /* TextFieldAutoSuggestion */ = {
+			isa = PBXGroup;
+			children = (
+				595E2E2520ECA441005A7121 /* AppDelegate.swift */,
+				595E2E2720ECA441005A7121 /* ViewController.swift */,
+				595E2E2920ECA441005A7121 /* Main.storyboard */,
+				595E2E2F20ECA443005A7121 /* Assets.xcassets */,
+				595E2E3120ECA443005A7121 /* LaunchScreen.storyboard */,
+				595E2E3420ECA443005A7121 /* Info.plist */,
+				595E2E2C20ECA441005A7121 /* TextFieldAutoSuggestion.xcdatamodeld */,
+			);
+			path = TextFieldAutoSuggestion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		595E2E2120ECA441005A7121 /* TextFieldAutoSuggestion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 595E2E3720ECA443005A7121 /* Build configuration list for PBXNativeTarget "TextFieldAutoSuggestion" */;
+			buildPhases = (
+				8B29CC2FE6E669A27370AF10 /* [CP] Check Pods Manifest.lock */,
+				595E2E1E20ECA441005A7121 /* Sources */,
+				595E2E1F20ECA441005A7121 /* Frameworks */,
+				595E2E2020ECA441005A7121 /* Resources */,
+				682AE6E3D2336C1FFECB8564 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldAutoSuggestion;
+			productName = TextFieldAutoSuggestion;
+			productReference = 595E2E2220ECA441005A7121 /* TextFieldAutoSuggestion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		595E2E1A20ECA441005A7121 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Nav146;
+				TargetAttributes = {
+					595E2E2120ECA441005A7121 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 595E2E1D20ECA441005A7121 /* Build configuration list for PBXProject "TextFieldAutoSuggestion" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 595E2E1920ECA441005A7121;
+			productRefGroup = 595E2E2320ECA441005A7121 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				595E2E2120ECA441005A7121 /* TextFieldAutoSuggestion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		595E2E2020ECA441005A7121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				595E2E3320ECA443005A7121 /* LaunchScreen.storyboard in Resources */,
+				595E2E3020ECA443005A7121 /* Assets.xcassets in Resources */,
+				595E2E2B20ECA441005A7121 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		682AE6E3D2336C1FFECB8564 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TextFieldAutoSuggestion/Pods-TextFieldAutoSuggestion-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/UITextField_AutoSuggestion/UITextField_AutoSuggestion.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITextField_AutoSuggestion.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TextFieldAutoSuggestion/Pods-TextFieldAutoSuggestion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B29CC2FE6E669A27370AF10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TextFieldAutoSuggestion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		595E2E1E20ECA441005A7121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				595E2E2820ECA441005A7121 /* ViewController.swift in Sources */,
+				595E2E2620ECA441005A7121 /* AppDelegate.swift in Sources */,
+				595E2E2E20ECA441005A7121 /* TextFieldAutoSuggestion.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		595E2E2920ECA441005A7121 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				595E2E2A20ECA441005A7121 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		595E2E3120ECA443005A7121 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				595E2E3220ECA443005A7121 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		595E2E3520ECA443005A7121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		595E2E3620ECA443005A7121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		595E2E3820ECA443005A7121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 458EEDAC33388E32551D1B3F /* Pods-TextFieldAutoSuggestion.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5TXQR267BG;
+				INFOPLIST_FILE = TextFieldAutoSuggestion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navsoft.zeilik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b8fbb6be-350f-45bf-be31-019fcfcaafae";
+				PROVISIONING_PROFILE_SPECIFIER = ZeilikIOSDevelopment;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		595E2E3920ECA443005A7121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0FDD06896E029F531BD0D31 /* Pods-TextFieldAutoSuggestion.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TextFieldAutoSuggestion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navsoft.zeilik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		595E2E1D20ECA441005A7121 /* Build configuration list for PBXProject "TextFieldAutoSuggestion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				595E2E3520ECA443005A7121 /* Debug */,
+				595E2E3620ECA443005A7121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		595E2E3720ECA443005A7121 /* Build configuration list for PBXNativeTarget "TextFieldAutoSuggestion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				595E2E3820ECA443005A7121 /* Debug */,
+				595E2E3920ECA443005A7121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		595E2E2C20ECA441005A7121 /* TextFieldAutoSuggestion.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				595E2E2D20ECA441005A7121 /* TextFieldAutoSuggestion.xcdatamodel */,
+			);
+			currentVersion = 595E2E2D20ECA441005A7121 /* TextFieldAutoSuggestion.xcdatamodel */;
+			path = TextFieldAutoSuggestion.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 595E2E1A20ECA441005A7121 /* Project object */;
+}
